@@ -2,6 +2,8 @@
 
 A clean, distraction-free Markdown reader that runs entirely in your browser — no build step, no server, no dependencies. Open the file, add your `.md` notes, and read.
 
+**🟢 Live:** [emdee.rvor.co.za](https://emdee.rvor.co.za/)
+
 ## Features
 
 - **Zero dependencies** — a single self-contained `.html` file. No CDN scripts, no external fonts, no network requests of any kind.
