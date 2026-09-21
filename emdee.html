@@ -308,26 +308,18 @@
     padding-top:14px;
     border-top:1px solid var(--rule);
   }
-
-  .site-footer{
-    padding:16px 48px 22px;
-    text-align:center;
-    font-size:12px;
+  .sidebar-copyright{
+    margin-top:10px;
+    font-size:11px;
     color:var(--ink-faint);
-    background:var(--margin);
-    border-top:1px solid var(--rule);
   }
-  .site-footer a{
+  .sidebar-copyright a{
     color:var(--ink-soft);
     text-decoration:underline;
     text-decoration-color:var(--rule);
     text-underline-offset:2px;
   }
-  .site-footer a:hover{color:var(--accent-ink); text-decoration-color:var(--accent);}
-
-  @media (max-width:860px){
-    .site-footer{padding:14px 18px 20px;}
-  }
+  .sidebar-copyright a:hover{color:var(--accent-ink); text-decoration-color:var(--accent);}
 
   /* ---------- Main ---------- */
   main{
@@ -642,6 +634,7 @@
 
     <div class="sidebar-footer">
       Everything renders locally in your browser.<br>Nothing here is uploaded anywhere.
+      <div class="sidebar-copyright">© <span id="footerYear"></span> <a href="https://github.com/RolinaVorster0101" target="_blank" rel="noopener">Rolina Vorster</a></div>
     </div>
   </aside>
 
@@ -674,10 +667,6 @@
     </div>
   </main>
 </div>
-
-<footer class="site-footer">
-  © <span id="footerYear"></span> <a href="https://github.com/RolinaVorster0101" target="_blank" rel="noopener">Rolina Vorster</a>
-</footer>
 
 <script>
   // Pre-loaded study files. Order here sets sidebar order and prev/next flow.

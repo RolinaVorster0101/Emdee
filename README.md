@@ -11,7 +11,8 @@ A clean, distraction-free Markdown reader that runs entirely in your browser —
 - **Hand-written Markdown parser** — supports headings, bold/italic/strikethrough, links, images, inline code, fenced code blocks, blockquotes, ordered/unordered/task lists, tables, and horizontal rules.
 - **Auto-generated table of contents** with scroll-spy highlighting, so the sidebar always shows where you are in the document.
 - **File library** — every file you add stays listed in the sidebar; switch between them instantly, or step through with Previous/Next.
-- **Remove files** individually with the × on each row, without reloading the app.
+- **Remove files** individually with the × on each row, without reloading the app — or wipe everything at once with **Clear all**.
+- **Remembers your files** — added files are saved to your browser's local storage, so they're still there next time you open Emdee (per-browser; not synced across devices).
 - **Word count & reading time** shown for whichever file is open.
 - **Fully responsive** — a proper slide-in drawer navigation on mobile, not just a squashed sidebar.
 - **Installable** — carries a manifest and app icon so it can be added to your desktop as a standalone app window (see below).
@@ -50,7 +51,7 @@ Any evergreen browser with standard ES5+ JavaScript and CSS Grid/Flexbox support
 
 ## Privacy
 
-Emdee makes no network requests. Files you open are read locally via the browser's File API and never leave your machine.
+Emdee makes no network requests. Files you open are read locally via the browser's File API and never leave your machine. Added files are cached in your browser's local storage (also on-device only) so they persist between sessions — use **Clear all** in the sidebar to wipe them.
 
 ---
 
